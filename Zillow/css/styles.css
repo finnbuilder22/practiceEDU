@@ -1,0 +1,8 @@
+* box-sizing {
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 35px;
+  width: 160px;
+}
