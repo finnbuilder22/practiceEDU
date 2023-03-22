@@ -1,8 +1,46 @@
-* box-sizing {
+/*Notes:
+logo size = 160x35
+*/
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 68px;
+  padding: 0 24px 0 0;
+  font-family: "Times New Roman", Times, serif;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
 
-.logo {
+a {
+  text-decoration: none;
+  padding: 14px;
+  font-size: 16px;
+}
+nav {
+  display: flex;
+}
+.nav-left {
+}
+.logo-holder {
+  height: 80px;
+  width: 192px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.logo-img {
   height: 35px;
   width: 160px;
+}
+.nav-right {
 }
